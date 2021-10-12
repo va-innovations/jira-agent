@@ -6,7 +6,7 @@ import requests
 
 class JiraContext():
 
-    auth = HTTPBasicAuth("klavskruz@gmail.com", "zvBQsTHhb4tc5jy0kMvK2FDF")
+    auth = HTTPBasicAuth("YOR EMAIL HERE", "YOUR JIRA API KEY HERE")
 
     @staticmethod
     def get_all_issues():
